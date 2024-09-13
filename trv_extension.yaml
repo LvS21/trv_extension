@@ -32,21 +32,21 @@ blueprint:
 
     monitor_person:
       name: Person
-      description: This person must be in the defined <Zone> for the Better Thermostat to be switched on (person).
+      description: This person must be in the defined <Zone> for the Thermostat to be switched on (person).
       selector:
         entity:
           domain: person
 
     monitor_zone:
       name: Zone
-      description: The defined person must be in this zone for the Better Thermostat to be switched on (zone).
+      description: The defined person must be in this zone for the Thermostat to be switched on (zone).
       selector:
         entity:
           domain: zone
 
     partymode_switch:
       name: Partymode
-      description: The Better Thermostat can be activated by a switch, regardless of presence or schedule. Select the input_boolean that signals whether party mode is active or inactive (input_boolean).
+      description: The Thermostat can be activated by a switch, regardless of presence or schedule. Select the input_boolean that signals whether party mode is active or inactive (input_boolean).
       selector:
         entity:
           domain: input_boolean
