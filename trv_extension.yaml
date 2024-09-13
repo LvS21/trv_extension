@@ -59,7 +59,7 @@ blueprint:
           domain: input_boolean
 
     aktiv_switch:
-      name: Aktiv
+      name: Activ
       description: Parameter to switch on/off individual thermostats so that no heating is provided (input_boolean).
       selector:
         entity:
